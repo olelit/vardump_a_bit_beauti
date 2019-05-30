@@ -1,0 +1,28 @@
+ul{
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+li{
+    list-style: none;
+    border: 1px solid #c3c3c3;
+    background-color:rgb(187, 224, 255);
+    padding: 5px;
+}
+
+.multilevel::after{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    content: '';
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.decode{
+    width: fit-content;
+}
